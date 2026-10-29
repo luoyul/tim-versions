@@ -1,0 +1,8 @@
+# Local package staging and generated output
+incoming/
+dist/
+tmp/
+*.apk
+*.apks
+*.xapk
+*.zip
