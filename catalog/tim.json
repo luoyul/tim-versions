@@ -1,6 +1,161 @@
-{
-  "product": "tim",
-  "packageName": "com.tencent.tim",
-  "description": "TIM Android historical versions",
-  "versions": []
+﻿{
+    "product":  "tim",
+    "packageName":  "com.tencent.tim",
+    "description":  "TIM Android historical versions",
+    "versions":  [
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "4.0.97",
+                         "versionCode":  4011,
+                         "fileName":  "TIM-4.0.97-4011.apk",
+                         "size":  154167142,
+                         "sha256":  "114e3bf51e7bd70f129020dc91133fa1f30aa296c79ecc1ce0c5236421271f9b",
+                         "releaseTag":  "tim-4.0.97-4011",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-4.0.97-4011"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "4.0.95",
+                         "versionCode":  4008,
+                         "fileName":  "TIM-4.0.95-4008.apk",
+                         "size":  154133435,
+                         "sha256":  "79a51a32674758cd434cdc567bd0ef1a74208d79494aaaaf34884ab74ea7bbc8",
+                         "releaseTag":  "tim-4.0.95-4008",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-4.0.95-4008"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "4.0.95",
+                         "versionCode":  4002,
+                         "fileName":  "TIM-4.0.95-4002.apk",
+                         "size":  154262065,
+                         "sha256":  "9e517936856aa9721e7f3b74e5037281f0438bb97c46cb470dcd1e9c4c86e50c",
+                         "releaseTag":  "tim-4.0.95-4002",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-4.0.95-4002"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.5.1",
+                         "versionCode":  1298,
+                         "fileName":  "TIM-3.5.1-1298.apk",
+                         "size":  127335486,
+                         "sha256":  "9b698bd7d4bfbeae954693b1c983566a6e3cb91f1d2a553f6d0684b7d0bc817d",
+                         "releaseTag":  "tim-3.5.1-1298",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.5.1-1298"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.4.9",
+                         "versionCode":  1268,
+                         "fileName":  "TIM-3.4.9-1268.apk",
+                         "size":  125885046,
+                         "sha256":  "cee962f7f89847594b8e51eb0a58fc379810b66c1fbcff235f1b422a5042f44a",
+                         "releaseTag":  "tim-3.4.9-1268",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.4.9-1268"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.4.7",
+                         "versionCode":  1238,
+                         "fileName":  "TIM-3.4.7-1238.apk",
+                         "size":  118689393,
+                         "sha256":  "2f47d5a7e4424c0aaace221bffb62a7f41e33238fec38750909aa18fcbebe1ab",
+                         "releaseTag":  "tim-3.4.7-1238",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.4.7-1238"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.2.3",
+                         "versionCode":  1088,
+                         "fileName":  "TIM-3.2.3-1088.apk",
+                         "size":  115160087,
+                         "sha256":  "43095e4672d0109c2d3cb0b13faa3d35b78eb4c4b431d9285b424434fc3ee1d4",
+                         "releaseTag":  "tim-3.2.3-1088",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.2.3-1088"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.2.0",
+                         "versionCode":  1086,
+                         "fileName":  "TIM-3.2.0-1086.apk",
+                         "size":  114623463,
+                         "sha256":  "56f4baad056b13df3c98bac04e814b22014a7f0a000bbdc5d26326dd7a654dca",
+                         "releaseTag":  "tim-3.2.0-1086",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.2.0-1086"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.1.1",
+                         "versionCode":  1084,
+                         "fileName":  "TIM-3.1.1-1084.apk",
+                         "size":  115317468,
+                         "sha256":  "30edb6cff8fca2668c66df2684e1e12acee19093c9a14b519b0c248936de0326",
+                         "releaseTag":  "tim-3.1.1-1084",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.1.1-1084"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.0.0",
+                         "versionCode":  1082,
+                         "fileName":  "TIM-3.0.0-1082.apk",
+                         "size":  85354233,
+                         "sha256":  "c4796a2775c90234a825ea7afcd52b743d513f89c4b7bb4e6d3dd7675dc6d6c6",
+                         "releaseTag":  "tim-3.0.0-1082",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.0.0-1082"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "3.0.0",
+                         "versionCode":  1080,
+                         "fileName":  "TIM-3.0.0-1080.apk",
+                         "size":  97337236,
+                         "sha256":  "640ef9b15f2585c6b40f32c07fad53c979ce7e49df0e8a57b15114776088c1df",
+                         "releaseTag":  "tim-3.0.0-1080",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-3.0.0-1080"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "2.5.5",
+                         "versionCode":  1078,
+                         "fileName":  "TIM-2.5.5-1078.apk",
+                         "size":  64449623,
+                         "sha256":  "e20943e8267f10c8a19c3884d22d36c7f798590bf96fa15acf35fae3f8c81579",
+                         "releaseTag":  "tim-2.5.5-1078",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-2.5.5-1078"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "2.5.4",
+                         "versionCode":  1076,
+                         "fileName":  "TIM-2.5.4-1076.apk",
+                         "size":  64449632,
+                         "sha256":  "72c3166e35ab0297e44d7c6e4d392665f6862eba709d7bf8ddb5b0daf093edc1",
+                         "releaseTag":  "tim-2.5.4-1076",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-2.5.4-1076"
+                     },
+                     {
+                         "product":  "tim",
+                         "packageName":  "com.tencent.tim",
+                         "versionName":  "2.3.1",
+                         "versionCode":  1072,
+                         "fileName":  "TIM-2.3.1-1072.apk",
+                         "size":  54417944,
+                         "sha256":  "099bf944294c5389d331b5f7b4087fea3f0eb9f4521924189413e70cd84bb211",
+                         "releaseTag":  "tim-2.3.1-1072",
+                         "releaseUrl":  "https://github.com/luoyul/tim-versions/releases/tag/tim-2.3.1-1072"
+                     }
+                 ]
 }
