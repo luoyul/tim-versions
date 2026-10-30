@@ -1,0 +1,49 @@
+name: Update TIM archive
+
+on:
+  schedule:
+    - cron: "47 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tim-archive-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout archive
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Set up Android build tools
+        uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+      - name: Install aapt2
+        run: sdkmanager "build-tools;35.0.0"
+      - name: Check official version and publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: python .github/update_tim.py
+      - name: Commit catalog changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/tim.json checksums/TIM-SHA256SUMS.txt
+          if git diff --cached --quiet; then
+            echo "No catalog changes"
+          else
+            git commit -m "Update TIM archive catalog"
+            git push origin main
+          fi
