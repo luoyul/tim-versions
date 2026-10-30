@@ -24,7 +24,7 @@ def run(*args, check=True, capture=False):
 
 
 def fetch_json(url):
-    request = urllib.request.Request(url, headers={"User-Agent": "tim-versions-updater"})
+    request = urllib.request.Request(url, headers={"User-Agent": "tim-versions-updater", "Cache-Control": "no-cache", "Pragma": "no-cache"})
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
@@ -54,7 +54,7 @@ def sha256(path):
 
 
 def main():
-    config = fetch_json(CONFIG_URL)
+    config = fetch_json(CONFIG_URL + "?t=" + uuid.uuid4().hex)
     android_versions = []
     for entry in config.get("version_history", []):
         if any(log.get("platform") == "android" for log in entry.get("logs", [])):
